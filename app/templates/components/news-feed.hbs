@@ -1,0 +1,6 @@
+<div class="news-feed" {{did-insert this.setScrollPosition @scrollPosition}}
+  {{did-update this.setScrollPosition @scrollPosition}}>
+  {{#each feedData as |feedItem|}}
+    {{feedItem}}
+  {{/each}}
+</div>

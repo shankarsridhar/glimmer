@@ -1,0 +1,17 @@
+.news-feed {
+  width: 30%;
+  height: 100vh;
+  overflow: scroll;
+}
+
+.news-feed:hover {
+  background-color: burlywood;
+}
+
+.flex {
+  display: flex;
+}
+
+.justify-around {
+  justify-content: space-around;
+}
